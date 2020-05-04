@@ -13,6 +13,6 @@ RUN mkdir diagram_files
 
 WORKDIR /diagram_files
 
-COPY entrypoint.sh .
+COPY entrypoint.sh /
 
-ENTRYPOINT [ "./entrypoint.sh" ]
+ENTRYPOINT [ "/entrypoint.sh" ]
