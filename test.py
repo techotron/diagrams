@@ -8,7 +8,7 @@ with Diagram("test", show=False, filename="/imgs/test"):
     dns = Route53("dns")
     lb = ELB("lb")
 
-    with Cluster("ECS (Janus)"):
+    with Cluster("ECS"):
         svc_group = [ECS("svc1"),
                      ECS("svc2"),
                      ECS("svc3")]
