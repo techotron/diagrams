@@ -1,12 +1,12 @@
 run:
 	docker run -d \
-		--name mingrammer \
+		--name diagrams \
 		-v $(shell pwd)/imgs:/imgs \
 		-v $(shell pwd):/diagram_files \
 		mingrammer $(DIAGRAM_FILE)
 
 stop:
-	docker kill mingrammer && docker rm mingrammer
+	docker kill diagrams && docker rm diagrams
 
 build:
-	docker build -t techotron/mingrammer .
+	docker build -t techotron/diagrams .

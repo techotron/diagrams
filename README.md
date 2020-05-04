@@ -1,5 +1,5 @@
 # Diagrams
-Tool for working on mingrammer diagrams
+Tool for working on [mingrammer diagrams](https://diagrams.mingrammer.com/docs/getting-started/examples)
 
 # Usage
 
